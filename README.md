@@ -1,8 +1,8 @@
- [ 1] SELECT DATE_DIFF(MAX(date), MIN(date), DAY) FROM `sql-sandbox-422308.Final_Exercise.match` 
+-- [ 1] SELECT DATE_DIFF(MAX(date), MIN(date), DAY) FROM `sql-sandbox-422308.Final_Exercise.match` 
   
 
  
-[ 2]  SELECT season, name, MIN(home_team_goal) AS min_home_goal, AVG(home_team_goal) AS avg_home_goal,
+--[ 2]  SELECT season, name, MIN(home_team_goal) AS min_home_goal, AVG(home_team_goal) AS avg_home_goal,
   ((MAX(home_team_goal) + MIN(home_team_goal))/2) AS mid_range_goal, MAX(home_team_goal) AS max_home_goal,
   SUM(home_team_goal) AS sum_home_goal
   FROM `sql-sandbox-422308.Final_Exercise.match` AS m
